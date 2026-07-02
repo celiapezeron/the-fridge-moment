@@ -1,4 +1,4 @@
-name: Publication programmee
+name: Publication programmee #2
 
 on:
   schedule:
