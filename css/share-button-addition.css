@@ -1,47 +1,13 @@
-/* ── LINKEDIN SHARE BUTTON ──────────────────────────────────────────────── */
-
-.share-block {
-  margin-top: 48px;
-  padding-top: 28px;
-  border-top: 1px solid var(--line);
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.share-label {
-  font-family: 'SF Mono', 'Courier New', monospace;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--sage);
-  white-space: nowrap;
-}
-
-.share-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: #0A66C2;
-  color: #ffffff;
-  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  padding: 9px 18px;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: background 0.2s ease;
-  flex-shrink: 0;
-}
-
-.share-btn:hover {
-  background: #004182;
-  color: #ffffff;
-}
-
-.share-btn svg {
-  width: 16px;
-  height: 16px;
-  fill: #ffffff;
-  flex-shrink: 0;
-}
+<style>
+/* Bouton share */
+.share-block { margin-top: 48px; padding-top: 28px; border-top: 1px solid rgba(26,26,24,.12); display: flex; align-items: center; gap: 16px; }
+.share-block-top { display: flex; justify-content: flex-end; margin-bottom: 32px; }
+.share-label { font-family: 'SF Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: #5B6B5E; white-space: nowrap; }
+.share-btn { display: inline-flex; align-items: center; gap: 8px; background: #1A1A18; color: #FAF8F3; font-family: -apple-system, sans-serif; font-size: 12px; font-weight: 500; padding: 8px 14px; border-radius: 4px; text-decoration: none; border: 1px solid rgba(250,248,243,.15); transition: border-color .2s; }
+.share-btn:hover { border-color: #C4583A; color: #FAF8F3; }
+.share-btn svg { width: 15px; height: 15px; fill: #C4583A; flex-shrink: 0; }
+.share-btn-top { display: inline-flex; align-items: center; gap: 6px; background: transparent; color: #5B6B5E; font-family: 'SF Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; padding: 6px 0; text-decoration: none; border-bottom: 1px solid transparent; transition: color .2s, border-color .2s; }
+.share-btn-top:hover { color: #C4583A; border-bottom-color: #C4583A; }
+.share-btn-top svg { width: 14px; height: 14px; fill: #5B6B5E; flex-shrink: 0; transition: fill .2s; }
+.share-btn-top:hover svg { fill: #C4583A; }
+</style>
