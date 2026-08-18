@@ -1,0 +1,47 @@
+/* ── LINKEDIN SHARE BUTTON ──────────────────────────────────────────────── */
+
+.share-block {
+  margin-top: 48px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.share-label {
+  font-family: 'SF Mono', 'Courier New', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--sage);
+  white-space: nowrap;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #0A66C2;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 9px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  flex-shrink: 0;
+}
+
+.share-btn:hover {
+  background: #004182;
+  color: #ffffff;
+}
+
+.share-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
+  flex-shrink: 0;
+}
