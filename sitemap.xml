@@ -45,4 +45,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://celiapezeron.github.io/the-fridge-moment/articles/ma-maison-a-brule-contrat-assurance-habitation.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
