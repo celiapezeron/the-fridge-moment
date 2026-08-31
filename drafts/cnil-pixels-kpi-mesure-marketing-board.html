@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le CFO demande le ROI, mes outils en mesurent de moins en moins : comment adapter mes KPIs ? : The Fridge Moment</title>
+<meta name="description" content="La recommandation CNIL sur les pixels de suivi soumet le tracking d'ouverture et de clic au consentement, comme les cookies. Pourquoi les KPIs marketing classiques s'érodent, et par quels indicateurs défendables les remplacer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+.share-block { margin-top: 48px; padding-top: 28px; border-top: 1px solid rgba(26,26,24,.12); display: flex; align-items: center; gap: 16px; }
+.share-label { font-family: 'SF Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: #5B6B5E; white-space: nowrap; }
+.share-btn { display: inline-flex; align-items: center; gap: 8px; background: #0A66C2; color: #fff; font-family: -apple-system, sans-serif; font-size: 13px; font-weight: 500; padding: 9px 18px; border-radius: 4px; text-decoration: none; transition: background .2s; }
+.share-btn:hover { background: #004182; color: #fff; }
+.share-btn svg { width: 16px; height: 16px; fill: #fff; flex-shrink: 0; }
+</style>
+<link rel="canonical" href="https://celiapezeron.github.io/the-fridge-moment/articles/cnil-pixels-kpi-mesure-marketing-board.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Fridge Moment">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Le CFO demande le ROI, mes outils en mesurent de moins en moins : comment adapter mes KPIs ?">
+<meta property="og:description" content="La recommandation CNIL sur les pixels de suivi soumet le tracking d'ouverture et de clic au consentement, comme les cookies. Pourquoi les KPIs marketing classiques s'érodent, et par quels indicateurs défendables les remplacer.">
+<meta property="og:url" content="https://celiapezeron.github.io/the-fridge-moment/articles/cnil-pixels-kpi-mesure-marketing-board.html">
+<meta property="og:image" content="https://celiapezeron.github.io/the-fridge-moment/assets/og-default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:published_time" content="2026-09-16">
+<meta property="article:author" content="Célia Pezeron">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://celiapezeron.github.io/the-fridge-moment/about.html#celia",
+      "name": "Célia Pezeron",
+      "jobTitle": "B2B Marketing Lead",
+      "url": "https://celiapezeron.github.io/the-fridge-moment/about.html",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Capco"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/pezeroncelia/",
+        "https://bsky.app/profile/VOTRE-HANDLE-BLUESKY"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://celiapezeron.github.io/the-fridge-moment/#blog",
+      "name": "The Fridge Moment",
+      "url": "https://celiapezeron.github.io/the-fridge-moment/",
+      "logo": "https://celiapezeron.github.io/the-fridge-moment/assets/og-default.png"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Le CFO demande le ROI, mes outils en mesurent de moins en moins : comment adapter mes KPIs ?",
+      "description": "La recommandation CNIL sur les pixels de suivi soumet le tracking d'ouverture et de clic au consentement, comme les cookies. Pourquoi les KPIs marketing classiques s'érodent, et par quels indicateurs défendables les remplacer.",
+      "inLanguage": "fr-FR",
+      "datePublished": "2026-09-16",
+      "dateModified": "2026-09-16",
+      "author": {
+        "@id": "https://celiapezeron.github.io/the-fridge-moment/about.html#celia"
+      },
+      "publisher": {
+        "@id": "https://celiapezeron.github.io/the-fridge-moment/#blog"
+      },
+      "image": "https://celiapezeron.github.io/the-fridge-moment/assets/og-default.png",
+      "mainEntityOfPage": "https://celiapezeron.github.io/the-fridge-moment/articles/cnil-pixels-kpi-mesure-marketing-board.html",
+      "keywords": [
+        "Marketing B2B",
+        "KPI",
+        "CNIL",
+        "RGPD",
+        "Mesure"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Les pixels de suivi email nécessitent-ils un consentement en B2B ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Au titre de l'article 82 de la loi Informatique et Libertés — le régime des cookies et traceurs — les pixels qui mesurent les ouvertures et les clics à des fins marketing nécessitent le consentement, y compris en B2B ; la recommandation de la CNIL d'avril 2026 le précise. La prospection B2B elle-même peut rester fondée sur l'intérêt légitime lorsqu'elle est en rapport avec la fonction du destinataire, mais le pixel de mesure suit la logique des cookies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle était l'échéance de mise en conformité ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le 14 juillet 2026 pour informer les bases déjà collectées et permettre une opposition simple. Passé ce délai, la CNIL applique contrôles et sanctions sur le fondement de l'article 82 de la loi Informatique et Libertés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Par quoi remplacer un taux d'ouverture devenu peu fiable ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Par des indicateurs de première main et d'impact business : réponses réelles, pipeline influencé, revenu, rétention, complétés de tests d'incrémentalité avec groupe témoin — plutôt que des métriques de vanité dépendantes du tracking."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="../index.html" class="site-title">The Fridge Moment</a>
+    <p class="site-tagline">Le marketing B2B vu depuis la buanderie, pas depuis le showroom.</p>
+    <nav class="site-nav">
+      <a href="../index.html">Articles</a>
+      <a href="../about.html">À propos</a>
+      <a href="https://www.linkedin.com/in/pezeroncelia/" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <article>
+    <div class="article-header">
+      <div class="article-meta">Méthode · 8 min de lecture</div>
+      <h1>Le CFO demande le ROI, mes outils en mesurent de moins en moins : comment adapter mes KPIs ?</h1>
+      <p class="article-subtitle">Depuis la recommandation de la CNIL sur les pixels de suivi, une partie des indicateurs que le board réclame s'appuie sur un sol qui se dérobe. Le problème n'est pas de mesurer moins. C'est de mesurer autre chose.</p>
+      <p class="article-byline">Par <a href="../about.html" rel="author">Célia Pezeron</a>, B2B Marketing Lead · <time datetime="2026-09-16">16 septembre 2026</time></p>
+      <p class="ai-note">Recherche et rédaction assistées par IA. Édité, vérifié et signé par Célia Pezeron.</p>
+    </div>
+
+    <div class="article-body">
+      <p>Les pixels qui mesurent les ouvertures et les clics d'un email à des fins marketing relèvent du même régime que les cookies : celui de l'article 82 de la loi Informatique et Libertés, qui impose le consentement préalable. Ce n'est pas la CNIL qui crée cette règle — elle l'applique. Dans sa recommandation du 14 avril 2026, elle a précisé que ces pixels de mesure y sont soumis, et laissé jusqu'au 14 juillet 2026 pour informer les bases existantes et permettre une opposition simple. Passé ce délai, contrôles et sanctions sur le fondement du même article 82. Et cela vaut aussi en B2B.</p>
+
+      <p>Ajoutez à cela le passage du démarchage téléphonique B2C à l'opt-in le 11 août 2026, la fin progressive des cookies tiers et des bases qui se réduisent à chaque nouvelle demande de consentement. Le tableau de bord que le board réclame — taux d'ouverture, taux de clic, attribution au dernier clic — repose de plus en plus sur un sol qui se dérobe.</p>
+
+      <p>C'est le fridge moment de la mesure. Quand le CFO demande « quel est le ROI de cette campagne ? », la question sous la question n'est pas comptable. C'est : est-ce que je peux avoir confiance que cet argent n'est pas gaspillé ? Et à cette question-là, un taux d'ouverture en baisse pour cause de consentement ne répond pas.</p>
+
+      <div class="related-box">
+        <span class="related-label">Un parallèle utile</span>
+        L'acheteur sous pression budgétaire qui pose une question simple pendant qu'on lui répond avec un argumentaire, je l'ai déjà croisé — c'est tout <a href="acheteur-hospitalier-budget-gele.html">l'acheteur hospitalier au budget gelé</a>.
+      </div>
+
+      <h2>Ce que la recommandation de la CNIL précise concrètement</h2>
+
+      <p>Le principe est simple : c'est la finalité du pixel qui commande, jamais le type d'email qui le contient. Un pixel de mesure marketing glissé dans un email transactionnel reste soumis au consentement. Recevoir une newsletter et être tracé à l'ouverture sont deux finalités distinctes, et chacune appelle son propre accord.</p>
+
+      <p>La prospection B2B en elle-même, quand le message est en rapport avec la fonction professionnelle du destinataire, peut continuer à reposer sur l'intérêt légitime. Mais le pixel qui mesure, lui, suit la logique des cookies. La conséquence pratique est brutale pour le pilotage : une partie de vos métriques d'engagement ne concerne désormais que les contacts ayant consenti au suivi. Le reste devient invisible.</p>
+
+      <h2>Pourquoi vos KPIs étaient déjà fragiles avant la CNIL</h2>
+
+      <p>Soyons honnêtes : l'attribution au dernier clic surestimait déjà les canaux de bas de funnel et effaçait tout le travail de marque en amont. Le taux d'ouverture était déjà bruité par les protections de la vie privée côté messageries. Le consentement n'a pas cassé une mesure fiable — il a rendu visible une fragilité qu'on préférait ne pas regarder.</p>
+
+      <p>Le board demande une précision que la donnée, honnêtement, ne peut plus donner. Continuer à promettre cette précision, c'est construire sa crédibilité sur un chiffre qu'un simple contrôle peut faire disparaître.</p>
+
+      <h2>La mauvaise réponse : mesurer plus fort</h2>
+
+      <p>La tentation, face à la perte de signal, c'est d'en récupérer coûte que coûte : multiplier les trackers, forcer le consentement par des interfaces ambiguës, acheter des fichiers « qualifiés ». C'est exactement là que le risque devient réel. La CNIL a prononcé 486,8 millions d'euros d'amendes en 2025 — l'essentiel sur des manquements aux cookies et traceurs, dont deux décisions à 325 et 150 millions d'euros. C'est exactement ce régime, celui de l'article 82, que les pixels de mesure rejoignent. Et la CNIL a rappelé qu'un consentement ne se transmet pas de partenaire en partenaire comme une patate chaude. Mesurer plus fort, aujourd'hui, c'est augmenter son exposition, pas sa lucidité.</p>
+
+      <h2>Les KPIs qui tiennent quand le signal se réduit</h2>
+
+      <p><strong>Des indicateurs de première main.</strong> Réponses réelles, demandes de démo, données déclarées par le prospect lui-même. Moins nombreux, mais robustes, à vous, et non dépendants d'un pixel qui peut tomber.</p>
+
+      <p><strong>De l'incrémentalité plutôt que de l'attribution.</strong> Un test avec groupe témoin — une zone ou un segment sans exposition — dit ce que la campagne a vraiment ajouté. C'est moins flatteur qu'un tableau d'attribution, et infiniment plus défendable devant un directeur financier.</p>
+
+      <p><strong>Des résultats business co-détenus avec les ventes.</strong> Pipeline influencé, revenu, rétention. Des indicateurs que la finance reconnaît, qui ne s'effondrent pas au prochain durcissement réglementaire, et qui sortent le marketing de son tableau de bord isolé.</p>
+
+      <p>Le board demande un chiffre. Le travail du marketing n'est pas de fournir le chiffre le plus flatteur, c'est de fournir un chiffre qu'on peut défendre et une histoire que la finance croit. Ce déplacement — de la métrique de vanité à l'indicateur défendable — est aussi ce qui fait passer le marketing de « générateur de reporting » à interlocuteur de gestion. Vous en êtes où, vous, sur ces métriques que vous n'osez plus tout à fait promettre ?</p>
+    </div>
+
+    <section class="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Questions fréquentes</h2>
+      <details>
+        <summary>Les pixels de suivi email nécessitent-ils un consentement en B2B ?</summary>
+        <p>Oui. Au titre de l'article 82 de la loi Informatique et Libertés — le régime des cookies et traceurs — les pixels qui mesurent les ouvertures et les clics à des fins marketing nécessitent le consentement, y compris en B2B ; la recommandation de la CNIL d'avril 2026 le précise. La prospection B2B elle-même peut rester fondée sur l'intérêt légitime lorsqu'elle est en rapport avec la fonction du destinataire, mais le pixel de mesure suit la logique des cookies.</p>
+      </details>
+      <details>
+        <summary>Quelle était l'échéance de mise en conformité ?</summary>
+        <p>Le 14 juillet 2026 pour informer les bases déjà collectées et permettre une opposition simple. Passé ce délai, la CNIL applique contrôles et sanctions sur le fondement de l'article 82 de la loi Informatique et Libertés.</p>
+      </details>
+      <details>
+        <summary>Par quoi remplacer un taux d'ouverture devenu peu fiable ?</summary>
+        <p>Par des indicateurs de première main et d'impact business : réponses réelles, pipeline influencé, revenu, rétention, complétés de tests d'incrémentalité avec groupe témoin — plutôt que des métriques de vanité dépendantes du tracking.</p>
+      </details>
+    </section>
+
+    <div class="tags">
+      <a href="../tags/methode.html" class="tag">Méthode</a>
+      <a href="../tags/marketing-b2b.html" class="tag">Marketing B2B</a>
+      <span class="tag">KPI</span>
+      <span class="tag">CNIL</span>
+      <span class="tag">RGPD</span>
+    </div>
+
+    <div class="share-block">
+      <span class="share-label">Partager sur</span>
+      <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fceliapezeron.github.io%2Fthe-fridge-moment%2Farticles%2Fcnil-pixels-kpi-mesure-marketing-board.html" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+    </div>
+
+    <div class="author-note">
+      <strong>Sur ce blog.</strong> The Fridge Moment explore le marketing B2B en InsurTech et MedTech à partir d'une seule question : qu'est-ce que l'acheteur a vraiment en tête avant de nous parler ? <a href="../about.html">En savoir plus sur ce projet</a>.
+    </div>
+
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>The Fridge Moment, notes sur le marketing B2B en InsurTech &amp; MedTech.</p>
+  </div>
+</footer>
+
+</body>
+</html>
